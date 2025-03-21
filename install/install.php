@@ -150,7 +150,7 @@ if (isset($_REQUEST['forceinstall']) AND ($_REQUEST['forceinstall'] == 1)) {
 	} else { //form has not been submitted
 		//initialize variables to default values
 		$_REQUEST['db_type'] = 'MYSQL';
-		$_REQUEST['db_host'] = 'localhost';
+		$_REQUEST['db_host'] = 'mysql';
 		$_REQUEST['db_port'] = '3306';
 		$_REQUEST['db_user'] = 'root';
 		$_REQUEST['db_password'] = '';
